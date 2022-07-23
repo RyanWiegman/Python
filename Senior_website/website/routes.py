@@ -6,9 +6,9 @@ from website import app
 def home():
     return render_template('home.html', title = 'Home')
 
-@app.route("/about")
-def about() :
-    return render_template('about.html', title='About')
+# @app.route("/about")
+# def about() :
+#     return render_template('about.html', title='About')
 
 @app.route("/Initial_Block_Document")
 def Initial_Block_Document() :
