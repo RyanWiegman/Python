@@ -33,3 +33,11 @@ def final_presentation() :
 @app.route('/final_documentation')
 def final_documentation() :
     return render_template("final_documenation.html", title='Final Documentation')
+
+@app.route('/cdr_video')
+def cdr_video() :
+    return render_template('cdr_video.html', title= 'CDR Video')
+
+@app.route('/midterm_demo_video')
+def midterm_demo_video() :
+    return render_template('midterm_demo_video.html', title='Midterm Demo Video')
